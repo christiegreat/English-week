@@ -739,3 +739,20 @@ audio[controls] {
         bottom: calc(90px + env(safe-area-inset-bottom));
     }
 }
+
+/* Add space inside the envelope letter on phones */
+@media (max-width: 650px) {
+    #envelopeScene .letter {
+        height: auto;
+        min-height: 88%;
+        padding: 20px 12px 30px;
+    }
+
+    #envelopeScene .letter > * {
+        flex-shrink: 0;
+    }
+
+    #envelopeScene .letter h2 {
+        font-size: clamp(40px, 12vw, 56px);
+    }
+}

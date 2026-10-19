@@ -105,7 +105,8 @@ body{
 }
 .venue{
     font-size:clamp(18px,1.7vw,29px);
-    margin:7px 0 0
+    margin:7px 0 0;
+    font-weight: 700;
 }
 .begin{
     position:absolute;
@@ -377,14 +378,14 @@ body{
 .dance-copy .script-heading{
     font-size:clamp(48px,5.5vw,88px)
 }
-.day27{
-    background-image:url("images/oct27.jpg")
-}
 .day28{
     background-image:url("images/oct28.jpg")
 }
 .day29{
     background-image:url("images/oct29.jpg")
+}
+.day30{
+    background-image:url("images/oct30.jpg")
 }
 .card-shade{
     background:linear-gradient(rgba(255,244,238,.08),rgba(255,237,232,.14))
@@ -489,7 +490,8 @@ body{
         font-size:19px
     }
     .venue{
-        font-size:16px
+        font-size:16px;
+        font-weight: 700;
     }
     .begin{
         bottom:3%;

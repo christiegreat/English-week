@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         later(7600, () => {
             const envelope = show("envelopeScene");
-            later(900, () => envelope.classList.add("play"));
+            later(2000, () => envelope.classList.add("play"));
         });
 
         later(13200, () => show("danceScene"));

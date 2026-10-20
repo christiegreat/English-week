@@ -78,7 +78,7 @@ body{
 .script-title{
     font-size:clamp(86px,10.5vw,170px);
     line-height:.82;
-    margin:26px auto 0;
+    margin:42px auto 0;
     white-space:nowrap
 }
 .ornament{
@@ -87,7 +87,7 @@ body{
     justify-content:center;
     gap:12px;
     width:min(420px,52vw);
-    margin:10px auto;
+    margin:22px auto;
     color:#c78d36
 }
 .ornament span{
@@ -101,7 +101,7 @@ body{
 .date{
     font-weight:700;
     font-size:clamp(21px,2.1vw,36px);
-    margin:12px 0 0
+    margin:22px 0 0
 }
 .venue{
     font-size:clamp(18px,1.7vw,29px);
@@ -754,5 +754,20 @@ audio[controls] {
 
     #envelopeScene .letter h2 {
         font-size: clamp(40px, 12vw, 56px);
+    }
+}
+
+.opening-copy .eyebrow {
+    margin-top: 38px;
+}
+/* Show line break on laptop */
+.desktop-only {
+    display: inline;
+}
+
+/* Hide line break on mobile */
+@media (max-width: 650px) {
+    .desktop-only {
+        display: none;
     }
 }

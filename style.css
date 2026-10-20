@@ -771,3 +771,24 @@ audio[controls] {
         display: none;
     }
 }
+/* Opening invitation spacing on laptop */
+@media (min-width: 651px) and (orientation: landscape) {
+
+    .opening-copy .eyebrow {
+        margin-top: 38px;
+    }
+
+    .opening-copy .script-title {
+        margin-top: 55px;
+        line-height: 1;
+    }
+
+    .opening-copy .ornament {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .opening-copy .date {
+        margin-top: 22px;
+    }
+}

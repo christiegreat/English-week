@@ -75,15 +75,15 @@ document.addEventListener("DOMContentLoaded", () => {
         // Day 3: 12 seconds
         later(34200, () => show("day30"));
 
-        // Attire heading: 2.5 seconds
+        // Attire heading: 4 seconds
         later(46200, () => show("attireTitle"));
 
         // Ladies: 8 seconds
-        later(48700, () => show("attireLadies"));
+        later(50200, () => show("attireLadies"));
 
         // Gentlemen: 8 seconds
-        later(56700, () => show("attireGentlemen"));
+        later(58200, () => show("attireGentlemen"));
 
-        later(64700, () => show("thanks"));
+        later(66200, () => show("thanks"));
     });
 });
